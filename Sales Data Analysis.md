@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the "Sales Data Analysis" project. In this document, we will explore how to analyze a sales dataset containing 11 columns and over 10,000 rows. The dataset includes the following columns:
+Welcome to the "Sales Data Analysis" project. In this document, we will explore how to analyze a sales dataset containing 11 columns and over 185950 rows. The dataset includes the following columns:
 
 - **ORDER ID**: Unique identifier for each order.
 - **PRODUCT**: The name or code of the product being sold.
@@ -15,8 +15,18 @@ Welcome to the "Sales Data Analysis" project. In this document, we will explore 
 - **CITY**: The city where the purchase was made.
 - **HOUR**: The hour of the day when the order was placed.
 
+![Screenshot (280)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/8fbb92e2-545a-41a5-94fc-008482534dd9)
+
 ## Data Cleaning and Preprocessing
 
+### missing Data
+from the data profile tool in power query one can see that there are no missing data
+![Screenshot (281)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/90a8feb9-b520-4f71-80fd-df02aea09b90)
+
+### Data type
+- I changed order id  from numerals to text
+- I changed the Price each column to currency
+- 
 Before diving into the analysis, it's essential to clean and preprocess the data. This involves handling missing values, removing duplicates, and ensuring data types are correct. You should also convert the 'ORDER DATE' column to a proper datetime format for time-based analysis.
 
 ## Data Exploration and Visualization
