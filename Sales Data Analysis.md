@@ -26,7 +26,8 @@ from the data profile tool in power query one can see that there are no missing 
 ### Data type
 - I changed order id  from numerals to text
 - I changed the Price each column to currency
-- 
+- I Changed Order date from date time to shortdate
+
 Before diving into the analysis, it's essential to clean and preprocess the data. This involves handling missing values, removing duplicates, and ensuring data types are correct. You should also convert the 'ORDER DATE' column to a proper datetime format for time-based analysis.
 
 ## Data Exploration and Visualization
