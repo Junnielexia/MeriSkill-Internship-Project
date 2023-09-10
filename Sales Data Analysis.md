@@ -20,13 +20,18 @@ Welcome to the "Sales Data Analysis" project. In this document, we will explore 
 ## Data Cleaning and Preprocessing
 
 ### missing Data
-from the data profile tool in power query one can see that there are no missing data
+
+From the data profile tool in power query one can see that there are no missing data
+
 ![Screenshot (281)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/90a8feb9-b520-4f71-80fd-df02aea09b90)
 
 ### Data type
 - I changed order id  from numerals to text
 - I changed the Price each column to currency
 - I Changed Order date from date time to shortdate
+- I created a revenue column to get the actual payment made from the quantity of product sold.
+
+![Screenshot (282)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/8125ea35-ffb2-4529-baa1-9905466a6c06)
 
 Before diving into the analysis, it's essential to clean and preprocess the data. This involves handling missing values, removing duplicates, and ensuring data types are correct. You should also convert the 'ORDER DATE' column to a proper datetime format for time-based analysis.
 
