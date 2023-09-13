@@ -30,6 +30,8 @@ From the data profile tool in power query one can see that there are no missing 
 - I changed the Price each column to currency
 - I Changed Order date from date time to shortdate
 - I created a revenue column to get the actual payment made from the quantity of product sold.
+- I changed Hours n month column from text to whole numbers.
+  
 
 ![Screenshot (282)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/8125ea35-ffb2-4529-baa1-9905466a6c06)
 
