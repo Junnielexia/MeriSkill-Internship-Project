@@ -31,7 +31,7 @@ From the data profile tool in power query one can see that there are no missing 
 - I changed the Price each column to currency
 - I Changed Order date from date time to shortdate
 - I created a revenue column to get the actual payment made from the quantity of product sold.
-- I changed Hours n month column from text to whole numbers.
+- I changed Hours and month column from text to whole numbers.
   
 
 ![Screenshot (282)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/8125ea35-ffb2-4529-baa1-9905466a6c06)
@@ -82,6 +82,7 @@ Based on the analysis, here are some recommendations:
 2. Consider offering promotions or bundles for 'LG Washing Machine' and 'LG Dryer' to boost sales further.
 3. Focus marketing efforts on Austin and Portland to maximize revenue.
 4. Schedule additional staff during lunchtime and early evening hours to handle increased customer demand effectively.
+   
 
 By following these recommendations, you can optimize sales strategies and drive revenue growth.
 
