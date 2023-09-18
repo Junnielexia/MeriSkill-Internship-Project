@@ -63,7 +63,7 @@ Understanding the hours when most sales occur can inform staffing and marketing 
 
 ![Screenshot (285)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/692673ad-7ec0-4991-9dc0-c364884ffded)
 
-# Product Analzsis
+# Product Analysis
 
 ![Screenshot (286)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/eeed2516-0995-41b9-b743-f2eec4c55b63)
 
