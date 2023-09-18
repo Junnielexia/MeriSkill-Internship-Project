@@ -46,6 +46,47 @@ Data preprocessing is essential to clean and prepare the dataset for analysis an
 - Renaming columns
 - Changing data types
 - Calculating derived columns if necessary
+  
+### Patient ID column
+using index column command i created a patients id column to help organize the data for easy analysis.
+
+### Age group column  
+```
+if [Age] >= 21 and [Age] <= 30 then "21-30"
+else if [Age] > 30 and [Age] <= 40 then "31-40"
+else if [Age] > 40 and [Age] <= 50 then "41-50"
+else if [Age] > 50 and [Age] <= 60 then "51-60"
+else "60+"
+
+```
+![Screenshot (288)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/9f4b0d00-584c-46b5-a106-dd2da9688aa7)
+
+### BMI Category
+```
+if [BMI] = 0 then "Unknown"
+    else if [BMI] < 18.5 then "Underweight"
+    else if [BMI] >= 18.5 and [BMI] < 24.9 then "Normal"
+    else if [BMI] >= 24.9 and [BMI] < 29.9 then "Overweight"
+    else "Obese"
+```
+### Insulin Level Category
+```
+if [Insulin] = 0 then "Unknown"
+    else if [Insulin] < 50 then "Low"
+    else if [Insulin] >= 50 and [Insulin] < 100 then "Normal"
+    else if [Insulin] >= 100 and [Insulin] < 200 then "Elevated"
+    else "High"
+```
+### Blood Pressure Category
+```
+if [BloodPressure] = 0 then "Unknown"
+  else if [BloodPressure] < 120 and [BloodPressure] >= 80 then "Normal"
+  else if [BloodPressure] >= 120 and [BloodPressure] < 130 then "Elevated"
+  else if [BloodPressure] >= 130 and [BloodPressure] < 140 then "Stage 1 Hypertension"
+  else if [BloodPressure] >= 140 and [BloodPressure] < 180 then "Stage 2 Hypertension"
+  else if [BloodPressure] >= 180 then "Hypertensive Crisis"
+  else "Unknown"
+```
 
 ## Data Visualization with Power BI
 Power BI is employed for data visualization, allowing for the creation of interactive and informative visualizations. Possible visualizations include:
@@ -53,7 +94,7 @@ Power BI is employed for data visualization, allowing for the creation of intera
 - Bar charts for categorical features (if applicable)
 - Scatter plots to explore relationships between variables
 - Line charts to visualize trends over time (if applicable)
-
+Create interactive visualizations that allow users to explore the impact of the "DiabetesPedigreeFunction" on diabetes outcomes dynamically. This can enhance the user experience of your Power BI report.
 ## Key Performance Indicators (KPIs)
 Key Performance Indicators are important metrics that provide a quick snapshot of the dataset's critical aspects. Some suggested KPIs for this project might include:
 - **Average Glucose Level**: The average glucose level among the patients.
