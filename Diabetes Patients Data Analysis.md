@@ -87,7 +87,28 @@ if [BloodPressure] = 0 then "Unknown"
   else if [BloodPressure] >= 180 then "Hypertensive Crisis"
   else "Unknown"
 ```
+### Skin Thickness
 
+```
+Skin Thickness Category = 
+    if [SkinThickness] = 0 then "Unknown"
+    else if [SkinThickness] >= 1 and [SkinThickness] <= 10 then "Very Thin"
+    else if [SkinThickness] > 10 and [SkinThickness] <= 20 then "Thin"
+    else if [SkinThickness] > 20 and [SkinThickness] <= 30 then "Average"
+    else if [SkinThickness] > 30 and [SkinThickness] <= 40 then "Thick"
+    else "Very Thick"
+
+```
+### Pregnancy Group
+```
+Pregnancy Group = 
+    if [Pregnancies] = 0 then "No Pregnancy"
+    else if [Pregnancies] >= 1 and [Pregnancies] <= 3 then "1-3 Pregnancies"
+    else if [Pregnancies] >= 4 and [Pregnancies] <= 6 then "4-6 Pregnancies"
+    else if [Pregnancies] >= 7 and [Pregnancies] <= 9 then "7-9 Pregnancies"
+    else if [Pregnancies] >= 10 and [Pregnancies] <= 12 then "10-12 Pregnancies"
+    else "13+ Pregnancies"
+```
 ## Data Visualization with Power BI
 Power BI is employed for data visualization, allowing for the creation of interactive and informative visualizations. Possible visualizations include:
 - Histograms and box plots for numeric features
