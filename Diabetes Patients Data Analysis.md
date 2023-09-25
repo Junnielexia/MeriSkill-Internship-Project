@@ -109,13 +109,7 @@ Pregnancy Group =
     else if [Pregnancies] >= 10 and [Pregnancies] <= 12 then "10-12 Pregnancies"
     else "13+ Pregnancies"
 ```
-## Data Visualization with Power BI
-Power BI is employed for data visualization, allowing for the creation of interactive and informative visualizations. Possible visualizations include:
-- Histograms and box plots for numeric features
-- Bar charts for categorical features (if applicable)
-- Scatter plots to explore relationships between variables
-- Line charts to visualize trends over time (if applicable)
-Create interactive visualizations that allow users to explore the impact of the "DiabetesPedigreeFunction" on diabetes outcomes dynamically. This can enhance the user experience of your Power BI report.
+
 ## Key Performance Indicators (KPIs)
 Key Performance Indicators are important metrics that provide a quick snapshot of the dataset's critical aspects. Some suggested KPIs for this project might include:
 - **Average Glucose Level**: The average glucose level among the patients.
@@ -137,5 +131,14 @@ Based on the analysis, provide recommendations or insights regarding diabetes ri
 ## Summary
 Summarize the key findings, insights, and the impact of this analysis on understanding and potentially addressing diabetes in the specific demographic group. Mention any potential next steps for further research or interventions.
 
+
+![Screenshot (289)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/fba7c539-38a1-4ca2-9e11-efc994de7e9d)
+# Patients Demography
+
+![Screenshot (290)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/dcd32c3a-e509-45e5-99fe-9bbe01e0e00a)
+
+#  Diabetes Trend
+
+![Screenshot (291)](https://github.com/Junnielexia/MeriSkill-Internship-Project/assets/95970546/0a4e5d2e-3142-4e18-95d8-ab27ed745dc5)
 
 
